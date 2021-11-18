@@ -1,0 +1,3 @@
+gcloud dataproc clusters create cluster-dataprocx1 --enable-component-gateway --region us-central1 --zone us-central1-a --master-machine-type n1-standard-2 
+--master-boot-disk-size 500 --num-workers 3 --worker-machine-type n1-standard-2 --worker-boot-disk-size 500 --image-version 2.0-debian10 --optional-components JUPYTER,ZEPPELIN,ZOOKEEPER 
+--project desafio-dataproc-332419
